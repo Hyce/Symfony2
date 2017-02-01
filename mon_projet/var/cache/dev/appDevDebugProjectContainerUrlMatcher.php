@@ -105,19 +105,24 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // dev_film_default_index
+        // dev_admin_admingenre_add
+        if ($pathinfo === '/admin/genres/ajout') {
+            return array (  '_controller' => 'Dev\\AdminBundle\\Controller\\AdminGenreController::addAction',  '_route' => 'dev_admin_admingenre_add',);
+        }
+
+        // dev_admin_default_index
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'dev_film_default_index');
+                return $this->redirect($pathinfo.'/', 'dev_admin_default_index');
             }
 
-            return array (  '_controller' => 'Dev\\FilmBundle\\Controller\\DefaultController::indexAction',  '_route' => 'dev_film_default_index',);
+            return array (  '_controller' => 'Dev\\AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'dev_admin_default_index',);
         }
 
         if (0 === strpos($pathinfo, '/film')) {
-            // dev_film_default_list
+            // page_films
             if ($pathinfo === '/films') {
-                return array (  '_controller' => 'Dev\\FilmBundle\\Controller\\DefaultController::listAction',  '_route' => 'dev_film_default_list',);
+                return array (  '_controller' => 'Dev\\FilmBundle\\Controller\\DefaultController::listAction',  '_route' => 'page_films',);
             }
 
             // dev_film_default_show

@@ -19,6 +19,7 @@
       <parameter key="DevschoolBiblioBundle">Devschool\BiblioBundle\DevschoolBiblioBundle</parameter>
       <parameter key="DevschoolAdminBundle">Devschool\AdminBundle\DevschoolAdminBundle</parameter>
       <parameter key="DevFilmBundle">Dev\FilmBundle\DevFilmBundle</parameter>
+      <parameter key="DevAdminBundle">Dev\AdminBundle\DevAdminBundle</parameter>
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -436,7 +437,7 @@
                 <tag name="cache.pool" clearer="cache.default_clearer"/>
                 <argument>nQvqGE9-6k</argument>
                 <argument>0</argument>
-                <argument>6SVahiRb3Yq7GGBwCr2yQz</argument>
+                <argument>8Dn2zigoztYmbUUOk6HCp0</argument>
                 <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/var/cache/dev/pools</argument>
                 <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                 <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -564,7 +565,7 @@
           <tag name="monolog.logger" channel="cache"/>
           <argument>yuf953FVpd</argument>
           <argument>null</argument>
-          <argument>6SVahiRb3Yq7GGBwCr2yQz</argument>
+          <argument>8Dn2zigoztYmbUUOk6HCp0</argument>
           <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
           <factory class="Symfony\Component\PropertyAccess\PropertyAccessor" method="createCache"/>
         </service>
@@ -585,7 +586,7 @@
       <tag name="cache.pool" clearer="cache.default_clearer"/>
       <argument>BTYidvhs4d</argument>
       <argument>0</argument>
-      <argument>6SVahiRb3Yq7GGBwCr2yQz</argument>
+      <argument>8Dn2zigoztYmbUUOk6HCp0</argument>
       <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -595,7 +596,7 @@
       <tag name="cache.pool" clearer="cache.default_clearer"/>
       <argument>3qETXYWS+Z</argument>
       <argument>0</argument>
-      <argument>6SVahiRb3Yq7GGBwCr2yQz</argument>
+      <argument>8Dn2zigoztYmbUUOk6HCp0</argument>
       <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -1588,7 +1589,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>5891c23f535657.18149512</argument>
+            <argument>5891d9c23f98c1.37211854</argument>
           </service>
         </argument>
       </argument>
@@ -1736,7 +1737,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>5891c23f535657.18149512</argument>
+            <argument>5891d9c23f98c1.37211854</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2668,6 +2669,10 @@
       <call method="addPath">
         <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/src/Dev/FilmBundle/Resources/views</argument>
         <argument>DevFilm</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/src/Dev/AdminBundle/Resources/views</argument>
+        <argument>DevAdmin</argument>
       </call>
       <call method="addPath">
         <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>

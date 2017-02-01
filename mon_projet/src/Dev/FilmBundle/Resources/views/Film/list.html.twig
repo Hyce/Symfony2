@@ -1,3 +1,9 @@
+{% extends 'DevFilmBundle::layout.html.twig' %}
+
+{% block title %}Liste des films{% endblock %}
+
+{% block body %}
+
 <h1>{{ titre|upper }} ({{ films|length }})</h1>
 
 <ul class="liste">
@@ -12,3 +18,4 @@
         </li>
     {% endfor %}
 </ul>
+{% endblock %}

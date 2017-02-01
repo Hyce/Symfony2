@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Devschool\BiblioBundle\DevschoolBiblioBundle(),
             new Devschool\AdminBundle\DevschoolAdminBundle(),
             new Dev\FilmBundle\DevFilmBundle(),
+            new Dev\AdminBundle\DevAdminBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

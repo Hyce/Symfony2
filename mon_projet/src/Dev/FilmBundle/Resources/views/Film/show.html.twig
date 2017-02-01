@@ -1,3 +1,8 @@
+{% extends 'DevFilmBundle::layout.html.twig' %}
+
+{% block title %}{{ film.titre }}{% endblock %}
+
+{% block body %}
 <h1>{{ film.titre }}</h1>
 
 <span>Réalisé par {{ film.realisateur }}</span>
@@ -7,5 +12,6 @@
 <span>Date de Parution : {{ film.dateParution|date("m/d/Y") }}</span>
 
 
-<p><a href="../films">Retour</a></p>
+<p><a href="{{ path('page_films') }}">Retour</a></p>
+{% endblock %}
 
