@@ -1,0 +1,20 @@
+{# src\Devschool\AdminBundle\Resources\views\Livre\form.html.twig #}
+{% extends 'DevschoolAdminBundle::layout.html.twig' %}
+{% block body %}
+    <h1>Formulaire Livre :</h1>
+    {{ form_start(form) }}
+    <strong>{{ form_label(form.titre) }}</strong> : {{ form_widget(form.titre) }}<br />
+    <br />
+    <strong>{{ form_label(form.description) }}</strong> :<br />
+    {{ form_widget(form.description) }}<br />
+    <br />
+    <strong>{{ form_label(form.auteur) }}</strong> : {{ form_widget(form.auteur) }}<br />
+    <br />
+    <strong>{{ form_label(form.nombrePages) }}</strong> : {{ form_widget(form.nombrePages) }}<br />
+    <br />
+    <strong>{{ form_label(form.genre) }}</strong> : {{ form_widget(form.genre) }}<br />
+    <br />
+    <strong>{{ form_label(form.dateParution) }}</strong> : {{ form_widget(form.dateParution) }}<br />
+    {{ form_end(form) }}
+    <p><a href="{{ path('admin_livre_liste') }}">Retour</a></p>
+{% endblock %}

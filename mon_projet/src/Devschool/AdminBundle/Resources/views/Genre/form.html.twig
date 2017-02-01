@@ -1,0 +1,10 @@
+{# src\Devschool\AdminBundle\Resources\views\Genre\form.html.twig #}
+{% extends 'DevschoolAdminBundle::layout.html.twig' %}
+{% block body %}
+    <h1>Formulaire Genre :</h1>
+    {{ form_start(form) }}
+    <strong>{{ form_label(form.nom) }}</strong> : {{ form_widget(form.nom) }} {{ form_widget(form.save) }}
+    {{ form_end(form) }}
+    <br />
+    <a href="{{ path('admin_genre_liste') }}">Retour</a>
+{% endblock %}

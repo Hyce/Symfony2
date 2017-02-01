@@ -1,0 +1,1 @@
+[2017-02-01 10:41:41] php.DEBUG: Warning: fsockopen(): unable to connect to localhost:1112 (Connection refused) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\SilencedErrorContext: {\"severity\":2,\"file\":\"/Applications/MAMP/htdocs/Symfony2/mon_projet/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ServerCommand.php\",\"line\":59})"} []
