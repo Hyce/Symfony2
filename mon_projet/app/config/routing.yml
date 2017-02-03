@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dev_admin:
     resource: "@DevAdminBundle/Controller/"
     type:     annotation
@@ -8,6 +9,8 @@ dev_film:
     type:     annotation
     prefix:   /
 
+=======
+>>>>>>> re
 devschool_admin:
     resource: "@DevschoolAdminBundle/Controller/"
     type:     annotation

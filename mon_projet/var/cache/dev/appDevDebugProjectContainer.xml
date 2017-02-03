@@ -18,8 +18,11 @@
       <parameter key="AppBundle">AppBundle\AppBundle</parameter>
       <parameter key="DevschoolBiblioBundle">Devschool\BiblioBundle\DevschoolBiblioBundle</parameter>
       <parameter key="DevschoolAdminBundle">Devschool\AdminBundle\DevschoolAdminBundle</parameter>
+<<<<<<< HEAD
       <parameter key="DevFilmBundle">Dev\FilmBundle\DevFilmBundle</parameter>
       <parameter key="DevAdminBundle">Dev\AdminBundle\DevAdminBundle</parameter>
+=======
+>>>>>>> re
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -28,8 +31,8 @@
     <parameter key="kernel.charset">UTF-8</parameter>
     <parameter key="kernel.container_class">appDevDebugProjectContainer</parameter>
     <parameter key="database_host">127.0.0.1</parameter>
-    <parameter key="database_port">8889</parameter>
-    <parameter key="database_name">film</parameter>
+    <parameter key="database_port">null</parameter>
+    <parameter key="database_name">ds_biblio</parameter>
     <parameter key="database_user">root</parameter>
     <parameter key="database_password">root</parameter>
     <parameter key="mailer_transport">smtp</parameter>
@@ -437,7 +440,11 @@
                 <tag name="cache.pool" clearer="cache.default_clearer"/>
                 <argument>nQvqGE9-6k</argument>
                 <argument>0</argument>
+<<<<<<< HEAD
                 <argument>8Dn2zigoztYmbUUOk6HCp0</argument>
+=======
+                <argument>+jv2hVNpG2fjTEOxlDkf7g</argument>
+>>>>>>> re
                 <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/var/cache/dev/pools</argument>
                 <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                 <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -565,7 +572,11 @@
           <tag name="monolog.logger" channel="cache"/>
           <argument>yuf953FVpd</argument>
           <argument>null</argument>
+<<<<<<< HEAD
           <argument>8Dn2zigoztYmbUUOk6HCp0</argument>
+=======
+          <argument>+jv2hVNpG2fjTEOxlDkf7g</argument>
+>>>>>>> re
           <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
           <factory class="Symfony\Component\PropertyAccess\PropertyAccessor" method="createCache"/>
         </service>
@@ -586,7 +597,11 @@
       <tag name="cache.pool" clearer="cache.default_clearer"/>
       <argument>BTYidvhs4d</argument>
       <argument>0</argument>
+<<<<<<< HEAD
       <argument>8Dn2zigoztYmbUUOk6HCp0</argument>
+=======
+      <argument>+jv2hVNpG2fjTEOxlDkf7g</argument>
+>>>>>>> re
       <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -596,7 +611,11 @@
       <tag name="cache.pool" clearer="cache.default_clearer"/>
       <argument>3qETXYWS+Z</argument>
       <argument>0</argument>
+<<<<<<< HEAD
       <argument>8Dn2zigoztYmbUUOk6HCp0</argument>
+=======
+      <argument>+jv2hVNpG2fjTEOxlDkf7g</argument>
+>>>>>>> re
       <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -1589,7 +1608,11 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
+<<<<<<< HEAD
             <argument>5891d9c23f98c1.37211854</argument>
+=======
+            <argument>5891ad4a391568.64204966</argument>
+>>>>>>> re
           </service>
         </argument>
       </argument>
@@ -1737,7 +1760,11 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
+<<<<<<< HEAD
             <argument>5891d9c23f98c1.37211854</argument>
+=======
+            <argument>5891ad4a391568.64204966</argument>
+>>>>>>> re
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2102,8 +2129,8 @@
       <argument type="collection">
         <argument key="driver">pdo_mysql</argument>
         <argument key="host">127.0.0.1</argument>
-        <argument key="port">8889</argument>
-        <argument key="dbname">film</argument>
+        <argument key="port">null</argument>
+        <argument key="dbname">ds_biblio</argument>
         <argument key="user">root</argument>
         <argument key="password">root</argument>
         <argument key="charset">UTF8</argument>
@@ -2192,7 +2219,6 @@
           <call method="setEntityNamespaces">
             <argument type="collection">
               <argument key="DevschoolBiblioBundle">Devschool\BiblioBundle\Entity</argument>
-              <argument key="DevFilmBundle">Dev\FilmBundle\Entity</argument>
             </argument>
           </call>
           <call method="setMetadataCacheImpl">
@@ -2213,23 +2239,10 @@
                       <argument type="service" id="annotation_reader"/>
                       <argument type="collection">
                         <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/src/Devschool/BiblioBundle/Entity</argument>
-                        <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/src/Dev/FilmBundle/Entity</argument>
                       </argument>
                     </service>
                   </argument>
                   <argument>Devschool\BiblioBundle\Entity</argument>
-                </call>
-                <call method="addDriver">
-                  <argument type="service">
-                    <service class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
-                      <argument type="service" id="annotation_reader"/>
-                      <argument type="collection">
-                        <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/src/Devschool/BiblioBundle/Entity</argument>
-                        <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/src/Dev/FilmBundle/Entity</argument>
-                      </argument>
-                    </service>
-                  </argument>
-                  <argument>Dev\FilmBundle\Entity</argument>
                 </call>
               </service>
             </argument>
@@ -2667,6 +2680,7 @@
         <argument>DevschoolAdmin</argument>
       </call>
       <call method="addPath">
+<<<<<<< HEAD
         <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/src/Dev/FilmBundle/Resources/views</argument>
         <argument>DevFilm</argument>
       </call>
@@ -2675,6 +2689,8 @@
         <argument>DevAdmin</argument>
       </call>
       <call method="addPath">
+=======
+>>>>>>> re
         <argument>/Applications/MAMP/htdocs/Symfony2/mon_projet/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
