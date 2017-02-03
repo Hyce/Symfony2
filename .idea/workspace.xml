@@ -2,34 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5193cf5-b06d-4d32-99de-7ac1b7b1d5e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mon_projet/src/AppBundle/Resources/views/Genre/form.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/AdminGenreController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Form/GenreType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/F/S/w-id+jyxVlr+vrmG-WF3" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/F/S/w-id+jyxVlr+vrmG-WF3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/G/Z/XSChApfBkVbrtxllUz4c" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/G/Z/XSChApfBkVbrtxllUz4c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/M/R/OIk9haR5WP1nVHhUAyLQ" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/M/R/OIk9haR5WP1nVHhUAyLQ" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mon_projet/src/AppBundle/Resources/views/Genre/list.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Form/FilmType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/7/Y/kaiv3DuGaPxblUgTqFQO" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/7/Y/kaiv3DuGaPxblUgTqFQO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/P/F/O6I5PM2SO2gmgm9eEl8E" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/P/F/O6I5PM2SO2gmgm9eEl8E" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/app/AppKernel.php" afterPath="$PROJECT_DIR$/mon_projet/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/app/config/routing.yml" afterPath="$PROJECT_DIR$/mon_projet/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/Film/list.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/Film/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/Film/show.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/Film/show.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/AdminGenreController.php" afterPath="$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/AdminGenreController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Film.php" afterPath="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Film.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Controller/AdminGenreController.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Controller/AdminGenreController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Controller/AdminLivreController.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Controller/AdminLivreController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/DependencyInjection/DevschoolAdminExtension.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/DependencyInjection/DevschoolAdminExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/DevschoolAdminBundle.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/DevschoolAdminBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Form/GenreType.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Form/GenreType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Form/LivreType.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Form/LivreType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/Genre/form.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/Genre/form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/Genre/list.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/Genre/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/Livre/form.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/Livre/form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/Livre/list.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/Livre/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/AdminBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/DependencyInjection/DevschoolBiblioExtension.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/DependencyInjection/DevschoolBiblioExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/DevschoolBiblioBundle.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/DevschoolBiblioBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Entity/Genre.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Entity/Genre.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Entity/Livre.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Entity/Livre.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Repository/GenreRepository.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Repository/GenreRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Repository/LivreRepository.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Repository/LivreRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/views/Livre/list.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/views/Livre/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/views/Livre/show.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/views/Livre/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/mon_projet/src/Devschool/BiblioBundle/Tests/Controller/DefaultControllerTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainer.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainer.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/-/O/3LjpwAqRai-Wfk78szIz" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/-/O/3LjpwAqRai-Wfk78szIz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/7/G/SZPDs1s-mYDplqldcyJ7" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/7/G/SZPDs1s-mYDplqldcyJ7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/B/T/QvVSjj-LS0ClM0fRp6cT" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/B/T/QvVSjj-LS0ClM0fRp6cT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/K/-/Um-+7agPTSx4dLcA-t0M" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/K/-/Um-+7agPTSx4dLcA-t0M" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/Z/S/97AEvvYujuwG32C6zUkq" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/Z/S/97AEvvYujuwG32C6zUkq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/+/E/M537vsXVQlrEgRrODpAK" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/+/E/M537vsXVQlrEgRrODpAK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/-/7/xzK-IMCkaV5MmsQ0jjhc" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/-/7/xzK-IMCkaV5MmsQ0jjhc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/2/R/zPM9wXw6PTrlGmS+LaVv" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/2/R/zPM9wXw6PTrlGmS+LaVv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/D/F/I-XXzNqVM8QVYcSezb4m" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/D/F/I-XXzNqVM8QVYcSezb4m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/E/A/dhToScpHTzFhgMQEAVp+" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/E/A/dhToScpHTzFhgMQEAVp+" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/K/Q/6p60usaP2rme6Vgt9VcO" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/K/Q/6p60usaP2rme6Vgt9VcO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/M/O/nrFuKDcCi61MXwKFm8GS" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/M/O/nrFuKDcCi61MXwKFm8GS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/N/-/kVOdQNjKZmI8xldjODWl" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/N/-/kVOdQNjKZmI8xldjODWl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/Q/G/eW5ywEAT1nC3wXvnbY+4" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/Q/G/eW5ywEAT1nC3wXvnbY+4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/S/C/1KczDi8xfosiBH79t5sN" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/S/C/1KczDi8xfosiBH79t5sN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/U/V/6eft2EoPYtsvduCzOv26" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/U/V/6eft2EoPYtsvduCzOv26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/V/J/uOxzKLAgJd2WHesgql-6" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/V/J/uOxzKLAgJd2WHesgql-6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/X/A/Lgp9LXTwhu6zu1a99woI" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/X/A/Lgp9LXTwhu6zu1a99woI" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/X/A/W34iEEIp6c-SnHQLVOjl" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/pools/3qETXYWS+Z/X/A/W34iEEIp6c-SnHQLVOjl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/twig/3e/3e5f0026371e38bbc0148a1e6223f328c2ea96988516d67c398f4ce47a9353b5.php" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/twig/3e/3e5f0026371e38bbc0148a1e6223f328c2ea96988516d67c398f4ce47a9353b5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/cache/dev/twig/72/72b758e83fc9d38310d9b180dbaa866b5f23a80d157b67ed678d90ac6db97def.php" afterPath="$PROJECT_DIR$/mon_projet/var/cache/dev/twig/72/72b758e83fc9d38310d9b180dbaa866b5f23a80d157b67ed678d90ac6db97def.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mon_projet/var/logs/dev.log" afterPath="$PROJECT_DIR$/mon_projet/var/logs/dev.log" />
     </list>
     <ignored path="Symfony2.iws" />
@@ -53,10 +79,42 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Controller/DefaultController.php">
+        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminGenreController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/AdminGenreController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+              <folding>
+                <element signature="e#45#77#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mon_projet/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding>
                 <element signature="e#45#102#0#PHP" expanded="true" />
               </folding>
@@ -65,58 +123,30 @@
         </entry>
       </file>
       <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/Film/list.html.twig">
+        <entry file="file://$PROJECT_DIR$/mon_projet/src/AppBundle/Resources/views/Genre/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/layout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/Film/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminGenreController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/AdminGenreController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
-                <element signature="e#45#77#0#PHP" expanded="true" />
+                <marker date="1485955011000" expanded="true" signature="37:282" placeholder="{% for genre in genres ...%}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FilmType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Form/FilmType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="e#39#79#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mon_projet/src/AppBundle/Resources/views/Genre/form.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -138,21 +168,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mon_projet/app/config/parameters.yml">
+      <file leaf-file-name="Film.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Film.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Film.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Film.php">
+      <file leaf-file-name="Genre.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Genre.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -166,15 +196,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mon_projet/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/mon_projet/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/Film/list.html.twig" />
         <option value="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/Film/show.html.twig" />
         <option value="$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Form/GenreType.php" />
-        <option value="$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/AdminGenreController.php" />
         <option value="$PROJECT_DIR$/mon_projet/src/AppBundle/Resources/views/Genre/form.html.twig" />
+        <option value="$PROJECT_DIR$/mon_projet/src/AppBundle/Resources/views/Genre/list.html.twig" />
+        <option value="$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/AdminGenreController.php" />
+        <option value="$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Form/FilmType.php" />
+        <option value="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Film.php" />
+        <option value="$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Genre.php" />
+        <option value="$PROJECT_DIR$/mon_projet/app/AppKernel.php" />
       </list>
     </option>
   </component>
@@ -358,36 +392,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mon_projet" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Devschool" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BiblioBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -900,12 +904,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485941743464</updated>
-      <workItem from="1485941744556" duration="7189000" />
+      <workItem from="1485941744556" duration="10520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7189000" />
+    <option name="totallyTimeSpent" value="10520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -975,16 +979,8 @@
         <state relative-caret-position="45">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
-            <element signature="e#26#81#0#PHP" expanded="true" />
+            <element signature="e#26#81#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mon_projet/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,24 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#45#102#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1118,14 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Form/GenreType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1136,21 +1106,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/AdminGenreController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#45#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mon_projet/src/AppBundle/Resources/views/Genre/form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mon_projet/src/AppBundle/Resources/views/Genre/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <marker date="1485955011000" expanded="true" signature="37:282" placeholder="{% for genre in genres ...%}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Form/FilmType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#39#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Entity/Genre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mon_projet/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/FilmBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#45#102#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mon_projet/src/Dev/AdminBundle/Controller/AdminGenreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding>
+            <element signature="e#45#77#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

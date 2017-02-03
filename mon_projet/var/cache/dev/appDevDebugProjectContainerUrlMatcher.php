@@ -105,11 +105,6 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // dev_admin_admingenre_add
-        if ($pathinfo === '/admin/genres/ajout') {
-            return array (  '_controller' => 'Dev\\AdminBundle\\Controller\\AdminGenreController::addAction',  '_route' => 'dev_admin_admingenre_add',);
-        }
-
         // dev_admin_default_index
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {
